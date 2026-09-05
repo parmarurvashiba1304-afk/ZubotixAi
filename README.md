@@ -68,6 +68,53 @@ Smart solution. limitless possiblities.
       <button class="btn">Submit</button>
     </form>
   </section>
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0; padding: 0;
+  background: #fdfdfd;
+}
+
+header {
+  background: linear-gradient(90deg,#4facfe,#8e54e9);
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+}
+
+.logo { width: 120px; }
+
+.navbar {
+  position: sticky; top: 0;
+  background: #fff; text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+  color: #4facfe; margin: 15px;
+  text-decoration: none; font-weight: bold;
+}
+
+.navbar a:hover { color: #8e54e9; }
+
+section { padding: 40px; text-align: center; }
+
+ul { list-style: none; padding: 0; }
+
+li { margin: 8px 0; }
+
+.btn {
+  background: #4facfe; color: #fff;
+  padding: 12px 25px; border-radius: 30px;
+  border: none; cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover { background: #8e54e9; }
+
+footer {
+  background: #222; color: #fff;
+  text-align: center; padding: 20px;
+}
 
   <!-- Footer -->
   <footer>
