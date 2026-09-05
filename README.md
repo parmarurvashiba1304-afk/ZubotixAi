@@ -122,3 +122,84 @@ footer {
   </footer>
 </body>
 </html>
+/* Global Theme */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdfdfd;
+  color: #222;
+}
+
+/* Header Theme */
+header {
+  background: linear-gradient(90deg, #4facfe, #8e54e9);
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+/* Navbar Theme */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+  color: #4facfe;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #8e54e9;
+}
+
+/* Section Theme */
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+section h2 {
+  color: #4facfe;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+  background: #4facfe;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #8e54e9;
+}
+
+/* Footer Theme */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
